@@ -1,2 +1,2 @@
-# bs4_looplap
-looplap social theme using bootstrap 4 
+# bs4_looplab
+looplab social theme using bootstrap 4 
