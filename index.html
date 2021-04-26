@@ -11,9 +11,9 @@
 <title>Bootstrap Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id=home>
 <!-- START HERE -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
 <div class="container">
 <a href="index.html" class="navbar-brand">LoopLab</a>
 <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
@@ -101,7 +101,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ducimus magnam? 
 
 <!-- Explore section -->
 <!-- Explore-Head -->
-<section id="explore-head-section">
+<section id="explore-head-section" class="py-5 bg-dark">
 <div class="container">
 <div class="row">
 <div class="col text-center py">
@@ -113,7 +113,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ducimus magnam? 
 </div>
 </section>
 
-<!--Explore-head-->
+<!--Explore-body-->
 <section id="explore-section" class="bg-light text-muted py-5">
 <div class="container">
 <div class="row">
@@ -144,6 +144,147 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui
 </div>
 </section>
 
+
+
+<!-- Create Section -->
+<!-- Create-head -->
+<section id="create-head-section" class="mb-3 bg-primary">
+<div class="container">
+<div class="row">
+<div class="col text-center py-5">
+<h1 class="display-4">Create</h1>
+<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, expedita! Iusto eum voluptate voluptates qui, maxime recusandae atque nam. </p>
+<a href="#" class="btn btn-outline-light">Find out more</a>
+</div>
+</div>
+</div>
+</section>
+
+<!--Create-body-->
+<section id="create-section" class="py-5">
+<div class="container">
+<div class="row">
+<div class="col-md-6 order-2 ">
+<img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+</div>
+<div class="col-md-6 order-1">
+<h3>Create Your Passion</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum atque accusantium ipsa deserunt animi in perferendis blanditiis?</p>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i>
+</div>
+<div class="p-4 align-self-end">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui, dolorum dolor vitae.
+</div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i>
+</div>
+<div class="p-4 align-self-end">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui, dolorum dolor vitae.
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Share section -->
+<!-- Share-Head -->
+<section id="share-head-section" class="bg-primary">
+<div class="container">
+<div class="row">
+<div class="col text-center py-5">
+<h1 class="display-4">Share</h1>
+<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, expedita! Iusto eum voluptate voluptates qui, maxime recusandae atque nam. Veritatis odit amet impedit laborum sequi velit magnam reprehenderit, ducimus aut.</p>
+<a href="#" class="btn btn-outline-light">Find out more</a>
+</div>
+</div>
+</div>
+</section>
+
+<!--Share-body-->
+<section id="share-section" class="bg-light text-muted py-5">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+</div>
+<div class="col-md-6">
+<h3>Share Your idea</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum atque accusantium ipsa deserunt animi in perferendis blanditiis?</p>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i>
+</div>
+<div class="p-4 align-self-end">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui, dolorum dolor vitae.
+</div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i>
+</div>
+<div class="p-4 align-self-end">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui, dolorum dolor vitae.
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer id="footer-main" class="bg-dark">
+<div class="container">
+<div class="row">
+<div class="col text-center py-5">
+<h1>LOOPLAB</h1>
+<p>Copyright &copy; <span id="year"></span></p>
+<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact us</button>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- Conatct Modal -->
+<div class="modal fade text-dark" id="contactModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Conatct Us</h5>
+<button class="close" data-dismiss="modal">
+        <span>&times;</span>
+      </button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" class="form-control">
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" class="form-control">
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea class="form-control"></textarea>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn btn-primary btn-block">Submit</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -151,6 +292,24 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint aperiam qui
 <script>
 // Get the current year for the copyright
 $('#year').text(new Date().getFullYear());
+
+//scrollSpy
+$('body').scrollspy({
+ target: '#main-nav'
+});
+
+//Smooth Scrolling
+$("#main-nav a").on('click', function(event) {
+ if (this.hash !== "") {
+  event.preventDefault();
+  const hash = this.hash;
+  $('html,body').animate({
+   scrollTop: $(hash).offset().top
+  }, 800, function() {
+   window.location.hash = hash;
+  });
+ }
+});
 </script>
 </body>
 
